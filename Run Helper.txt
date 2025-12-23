@@ -1,0 +1,15 @@
+python -m venv .venv
+.venv\Scripts\activate
+
+
+pip install -r requirements.txt
+
+
+to check each agent separately, when they build one by one check the process by running  -->
+python main.py
+
+
+To run the full application  -->
+streamlit run app.py
+
+
